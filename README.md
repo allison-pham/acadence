@@ -1,6 +1,6 @@
 # Acadence
 <div align="center">
-    <strong>Acadence</strong> is a unified notification dashboard - web app + extension that includes notifications from various platforms
+    <strong>Acadence</strong> is a unified notification dashboard - web app + extension that includes notifications from various platforms.
 </div>
 
 <div align="center">
@@ -12,9 +12,7 @@
 </div>
 
 ## Features
-- Canvas
-- Gradescope
-- zyBooks
+Platforms that are possibly pulling notifications from: Canvas, Gradescope, zyBooks, etc.
 
 ## Getting Started
 | **Step** | **Purpose** | **Instructions** |
