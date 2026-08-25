@@ -20,3 +20,11 @@ Platforms that are possibly pulling notifications from: Canvas, Gradescope, zyBo
 | Git + GitHub Setup | Source code access | • Ensure Git is installed ([download](https://git-scm.com/install/windows) based on OS)<br>• Clone this GitHub repository using an IDE (e.g. Visual Studio Code)<br>&nbsp;&nbsp;&nbsp;&nbsp;• Click "Code" (green button) > HTTPS > copy the link<br>• Run `git clone "https://github.com/allison-pham/acadence"` |
 | Installation | Local development | • Run `npm install` |
 | Run locally (frontend) | Local development | • Open up terminal: `npm run dev`<br>• Open http://localhost:3000 |
+
+- Generate a Canvas access token
+    - Go to Account → Settings
+    - Scroll to "Approved Intergrations" and click "+ New Access Token"
+- Test API call
+    - In terminal: run `curl -H "Authorization: Bearer CANVAS_TOKEN" https://canvas_url.com/api/v1/courses`
+        - Ensure to replace "CANVAS_TOKEN" and "canvas_url.com" with the correct information
+    - Upon running the command, it'll list couses
